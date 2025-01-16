@@ -1,11 +1,12 @@
 {
   "name": "intro-storybook-react-template-k38",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Starter template to get up and running quickly with React and Storybook",
   "author": {
     "name": "Chromatic",
     "email": "https://chromatic.com/"
   },
+  "main": "dist/index.js",
   "type": "module",
   "repository": {
     "type": "git",
