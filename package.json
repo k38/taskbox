@@ -2,11 +2,14 @@
   "name": "intro-storybook-react-template-k38",
   "version": "0.2.1",
   "description": "Starter template to get up and running quickly with React and Storybook",
-  "author": "Chromatic <https://chromatic.com/>",
+  "author": {
+    "name": "Chromatic",
+    "email": "https://chromatic.com/"
+  },
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chromaui/intro-storybook-react-template"
+    "url": "git+https://github.com/chromaui/intro-storybook-react-template.git"
   },
   "bugs": {
     "url": "https://github.com/chromaui/intro-storybook-react-template/issues"
@@ -24,7 +27,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "init-msw": "msw init public/"
+    "init-msw": "msw init public/",
+    "chromatic": "npx chromatic --project-token=chpt_5885d6c2482737e"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^8.3.2",
@@ -38,6 +42,7 @@
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
+    "chromatic": "^11.24.0",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
@@ -56,5 +61,6 @@
     "workerDirectory": [
       "public"
     ]
-  }
+  },
+  "homepage": "https://github.com/chromaui/intro-storybook-react-template#readme"
 }
